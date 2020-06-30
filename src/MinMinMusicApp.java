@@ -20,7 +20,7 @@ public class MinMinMusicApp {
             MidiEvent noteOn = new MidiEvent(a,1);
             track.add(noteOn);
 
-            ShortMessage b = new ShortMessage();
+            ShortMessage b = new ShortMessage(); // testing git 2
             a.setMessage(128,2,44,100);
             MidiEvent noteOff = new MidiEvent(b,16);
             track.add(noteOff);
